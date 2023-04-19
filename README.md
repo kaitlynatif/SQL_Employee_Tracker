@@ -53,7 +53,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 
 ## Installation Process
-1. Clone or download the zip.folder of the repository: [https://github.com/SQL_Employee_Tracker](https://github.com/kaitlynatif/SQL_Employee_Tracker)
+1. Clone or download the zip.folder of the repository: [https://github.com/kaitlynatif/SQL_Employee_Tracker](https://github.com/kaitlynatif/SQL_Employee_Tracker)
 2. Install the following: 
 - Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
 - MySQL2: [Version 3.1.2](https://www.npmjs.com/package/mysql2)
