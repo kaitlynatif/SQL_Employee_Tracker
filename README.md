@@ -86,7 +86,7 @@ The following video shows an example of the application being used from the comm
 1. How to build a command-line application from scratch to manage an employee database, using Node.js, Inquirer, and MySQL.
 2. Create direct and coherent walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
 
-## License & Copyright ©
+## License
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
@@ -118,6 +118,7 @@ Follow me on Github at [Kaitlyn Atif](https://github.com/kaitlynatif)! Additiona
 © 2023 [Kaitlyn Atif](https://github.com/kaitlynatif). Confidential and Proprietary. All Rights Reserved.
 
 ## Acknowledgements
+
 ### Credits and Helpful Resources Used to Create this Application
 
 * [SQL Employee Tracker Video Tutorial](https://youtu.be/m9CQxR0AfiQ)
