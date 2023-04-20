@@ -14,7 +14,7 @@
 - [Continued Development](#Continued-Development)
 - [License](#License)
 - [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
+- [Contributions](#Contributions)
 
 ## Description
 
@@ -117,7 +117,7 @@ Follow me on Github at [Kaitlyn Atif](https://github.com/kaitlynatif)! Additiona
 
 © 2023 [Kaitlyn Atif](https://github.com/kaitlynatif). Confidential and Proprietary. All Rights Reserved.
 
-## Acknowledgements
+## Contributions
 
 ### Credits and Helpful Resources Used to Create this Application
 
