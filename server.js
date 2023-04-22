@@ -10,19 +10,6 @@ const connection = mysql.createConnection({
     database: "employee_tracker_db",
 });
 
-// // get the client
-// const mysql = require('mysql2');
-// // create the connection
-// const con = mysql.createConnection(
-//   {host:'localhost', user: 'root', database: 'employee_tracker_db'}
-// );
-// con.promise().query("SELECT 1")
-//   .then( ([rows,fields]) => {
-//     console.log(rows);
-//   })
-//   .catch(console.log)
-//   .then( () => con.end());
-
 // Start connection
 connection.connect((err) => {
     if (err) throw err;
@@ -96,9 +83,9 @@ function addDepartment() {
         })
         .then((answer) => {
             connection.query(
-                "INSERT INTO department SET ?",
+                "INSERT INTO departments SET ?",
                 {
-                    name: answer.department,
+                    department_name: answer.department,
                 },
                 (err) => {
                     if (err) throw err;
@@ -132,7 +119,7 @@ function addRole() {
         ])
         .then((answer) => {
             connection.query(
-                "INSERT INTO role SET ?",
+                "INSERT INTO roles SET ?",
                 {
                     title: answer.title,
                     salary: answer.salary,
@@ -192,7 +179,7 @@ function addEmployee() {
 
 // Function to view departments
 function viewDepartments() {
-    connection.query("SELECT * FROM department", (err, res) => {
+    connection.query("SELECT * FROM departments", (err, res) => {
         if (err) throw err;
         console.table(res);
         start();
@@ -201,7 +188,7 @@ function viewDepartments() {
 
 // Function to view roles
 function viewRoles() {
-    connection.query("SELECT * FROM role", (err, res) => {
+    connection.query("SELECT * FROM roles", (err, res) => {
         if (err) throw err;
         console.table(res);
         start();
