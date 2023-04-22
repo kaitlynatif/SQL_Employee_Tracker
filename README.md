@@ -84,7 +84,7 @@ The following video shows an example of the application being used from the comm
 
 ## What I Learned
 1. How to build a command-line application from scratch to manage an employee database, using Node.js, Inquirer, and MySQL.
-2. Create direct and coherent walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
+2. Create direct and coherent walkthrough video that demonstrates the interfaces functionality and acceptance criteria.
 
 ## License
   
